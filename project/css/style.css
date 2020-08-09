@@ -1,0 +1,451 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+
+#prev{
+	color: white;
+	margin-left: 320px;
+	margin-top: 12px;
+	font-size: 17px;
+}
+
+#banner{
+	margin-top: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	position: relative;
+	width: 100%;
+	z-index: 0;
+	
+}
+.imgBanner{
+	width: 100%;
+	height: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+.topu{
+	background-color:black;
+	width: 100%;
+	height: 55px;
+	position: relative;
+	z-index: 50;
+	color: white;
+}
+
+.container{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+  
+    color: #FFFF00;
+}
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a {
+	color:white;
+}
+.imgA{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	border-bottom: 5px dotted black;
+	width: 100%;
+	height: 100%;
+}
+nav.navbar div.collapse ul.navbar-nav li{
+	margin-left:140px;
+	width: 0px;
+	padding-top: 10px;
+	color: white;
+}
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text .nav-item .nav-link{ 
+	padding: 0;
+	font-weight: 500;
+	font-size: 13px;
+} 
+.navbar .navbar-custom .navbar-nav > .nav-item > .nav-link, .navbar-custom .navbar-nav > .nav-item > .nav-link{
+	color: white;
+	padding-top: 0rem ;
+	font-family: sans-serif;
+	font-weight:500;
+	font-size: 13px;
+}
+.navbar .navbar-custom .navbar-nav > .nav-item > .nav-link:focus, .navbar-custom .navbar-nav > .nav-item > .nav-link:hover{
+	color: rgb(255, 230, 0);
+}
+
+.navbar .navbar-toggler {
+  border-color: rgb(255, 255, 255);
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+button#button_{
+	position: fixed;
+	right: 16px;
+	bottom: 16px;
+	z-index: 379;
+	transition: right .2s,bottom .2s,left .2s;
+	width: 100%;
+	height: auto;
+}
+button#button-id {
+	position: fixed;
+	right: 16px;
+	bottom: 16px;
+	z-index: 879;
+	transition: right .2s,bottom .2s,left .2s;
+	background-color: rgb(255, 217, 0);
+	color: black;
+	width: 200px;
+	height: 40px;
+	text-transform: uppercase;
+	font-family: sans-serif; /*Aplicar event JQuery*/
+	margin-top: 30px; 
+	margin-bottom: 25px;
+	border: 1px solid rgb(255, 217, 0);
+	font-weight: 600;
+}
+button#button-id:hover{
+	background-color:rgb(243, 243, 243);
+}
+button#button-id a{
+	text-decoration: none;
+}
+
+input#button-id{
+	background-color: rgb(255, 217, 0);
+	color: black;
+	width: 200px;
+	height: 40px;
+
+	text-transform: uppercase;
+	font-family: sans-serif; /*Aplicar event JQuery*/
+	margin-top: 30px; 
+	margin-bottom: 25px;
+	border: 1px solid rgb(255, 217, 0);
+	font-weight: 600;
+}
+
+div.banner-img-um{
+	background-color: #e6b30ece;
+	width:95%;
+	height: auto;
+	margin-top: 20px;
+	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+	border-radius: 50px;
+}
+div.banner-img{
+	background-color: #fab20ace;
+	width:95%;
+	height: auto;
+	margin-top: 20px;
+	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+	border-radius: 50px;
+	
+
+}
+div.div-footer{
+	width:100%;
+	height: 100%;
+	margin-top: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+img.img-comparativa{
+	width: 80%;
+	margin: 30px;
+	margin-left: 40px;	
+	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+	
+}
+h3.titulo-um{
+	color: black;
+	margin-top: 0px;
+	font-size: 23px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	padding-top: 20px;
+	
+}
+h3.titulo-um-2{
+	color: black;
+	margin-top: 50px;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	padding-top: 20px;
+	
+}
+hr.hr-titulo{
+	width: 60%;
+	height: 0.09rem;
+	margin-left: 20%;
+	background-color: rgb(255, 255, 255);
+}
+span.text-descricao{
+	margin:30px;
+	font-size: 18px;
+	font-weight: bolder;
+	color:rgb(197, 3, 3);
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: justify;
+	text-shadow: 0px 0px 1px white;
+}
+div
+div.div-descricao{
+	margin: 20px;
+	text-align: justify;
+}
+div.div-img{
+	margin-top: 20px;
+	margin: 20px;
+	text-align: justify;
+}
+div.footer{
+	background-color: rgb(0, 0, 0);
+	width:100%;
+	height: 100%;
+
+}
+.img_f{
+	margin-top: 15%;
+}
+img#panfleto_{
+	margin-top: 5%;
+	margin-left: 0%;
+	width: 100%;
+}
+div.texto_{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size:30px;
+	font-weight: 600;
+	color: black;
+	text-align: center;
+	margin-top: 10%;
+	width:100%;
+	margin-left: 8%;
+	text-shadow: 1px 0px 0px  rgba(50, 50, 50, 0.77) ;
+}
+span.text-descricao-footer{
+	padding-left: 0px;
+	margin-right: 0px;	
+	font-size: 13.4px;
+	font-weight: 500;
+	font-family: serif;
+	color: gray;
+}
+
+h3#texto-margem{
+	margin-top:40px;
+}
+h3.titulo-dois{
+	color: #e6b30ece;
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: justify;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	padding-top: 0px;
+}
+div.direitos{
+	width: 100%;
+	height: 40px;
+	background-color: rgb(37, 37, 37);
+	font-size: 12px;
+	color:white;
+	padding: 10px;
+	text-align: left;
+}
+h5.direitos{
+	margin-left: 20px;
+	font-size: 12px;
+	color:gray;
+	font-weight: 600;
+	text-align: center;
+}
+.cprod{
+	width: 100%;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+}
+.titulos_{
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	background-color: black;
+	color: white;
+	width: 100%;
+	border-radius: 5%;
+}
+.item_1{
+	width: 60%;
+	height: auto;
+	margin-bottom: 1%;
+	margin-left: 1%;
+}
+#item_1-1{
+	width: 80%;
+	height: auto;
+	
+	margin-left: 9%;
+}
+.item_2{
+	width: 40%;
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'Roboto', Oxygen, Ubuntu, Cantarell, sans-serif;
+	color: rgb(0, 0, 0);
+	margin: 1%;
+	margin-bottom: 1%;
+	margin-right: 5%;
+}
+#item_2-2{
+	margin-bottom: 2%;
+}
+.ft1{
+	width: 70%;
+	height: 100%;
+	margin-left:15%;
+}
+.ft2{
+	width: 50%;
+	height: auto;
+	margin-left:20%;
+}
+.ft3{
+	width: 80%;
+	height: auto;	
+	margin-left: 12%;
+}
+.ft4{
+	width: 45%;
+	height: 100%;
+	margin-left: 5%;
+}
+.ft5{
+	width: 45%;
+	height: 100%;
+	margin-left: 2%;
+}
+.ft6{
+	width: 45%;
+	height: 100%;
+	margin-left: 29%;
+}
+.ft7{
+	width: 45%;
+	height: 100%;
+	margin-left: 29%;
+}
+.wpp{
+	margin-left: 40%;
+	background-color: darkgreen;
+	color: white;
+	border-radius: 15px;
+	padding: 2%;
+}
+.wpp a{
+	text-decoration: none;
+	color: white;
+}
+.wpp a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+/* Começa aqui codigo formulario */
+div.form-contato{
+	width: 100%;
+	height: auto;
+	
+	margin-top: 2%;
+}
+form.formulario{
+	margin-top: 3%;
+
+}
+input.input-1:focus{
+	margin: 1%;
+	width: 40%;
+	height: 40px;
+	border: 1px solid gray;
+	color:#303030;
+	padding:1%;
+	font-size: 14px;
+	font-weight: 500;
+}
+input.input-1{
+	margin: 1%;
+	width: 40%;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 2px;
+	color:black;
+	padding:1%;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+textarea.area{
+	border: 2px solid gray;
+	border-radius: 2px;
+	width:100%;
+	padding:1%;
+	font-size: 14px;
+	font-weight: 500;
+}
+div.div-area{
+	border: 2px solid gray;
+	border-radius: 2px;
+	width: 40%;
+	background-color: white;
+	margin-left: 30%;
+}
+input#input-file{
+	margin-left: 0%;
+	width: 100%;
+}
+
+#file-texto{
+	margin-left: 22%;
+}
+div.titulo-formulario{
+	margin-left:20%;
+	margin-right: 20%;
+}
+div.input-file{
+	border: 1px solid gray;
+	width: 22%;
+	height: 100%;
+	margin-right: 31%;
+	font-weight: bolder;
+	position: relative;
+	float: right;
+}
+div.titulo_h{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	color: black;
+	text-align: center;
+	text-shadow: 0px 0px 1px  rgba(50, 50, 50, 0.77);
+	margin-top: 2%;
+}

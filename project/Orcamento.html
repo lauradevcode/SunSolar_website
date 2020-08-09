@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang=”pt-br”>
+
+<head>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<title></title>
+	<link href="css/style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	
+	
+
+</head>
+
+<body>
+	<header class="topu">
+		<!-- Tudo que ficar no topo -->
+
+	</header>
+
+	<!--Banner -->
+	<div class="container-fluid" style="background-color: black;">
+		<div class="row"> 
+			<div class="logo col-lg 12 col-xs 12 col-md 12 col-sm 12">
+				<img src="img/banner.png" alt="" class="imgA">
+			</div>
+		</div>
+
+
+
+	</div>
+	<div class="menu">
+		<!-- menu responsivo  -->
+
+		<nav class="navbar-custom navbar navbar-expand-md py-1 "
+			style="background-color:#333; border-top: 2px solid black; ">
+			<a class="navbar-custom navbar-brand" href="#"></a>
+			<button class="navbar-toggler p-1" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class=".navbar-custom collapse navbar-collapse navbar-brand ml-auto" id="collapsibleNavbar">
+				<ul class="navbar-nav ">
+					<li class="nav-item" id="primeiro">
+						<a class="nav-link  " href="index.html">INÍCIO</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="Produtos.html">PRODUTOS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Orcamento.html">ORÇAMENTO</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Contato.html">CONTATO</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Sobre.html">SOBRE</a>
+					</li>
+				</ul>
+			</div>
+		
+
+		</nav>
+	</div>
+	
+
+    <body>
+        <div class="btn_central">
+        <header class="btn_h1">
+            
+		</header>
+		<div class="container-fluid">
+		<div class="form-contato text-center">
+			<form name="form1" action="enviar.php" method="post">
+				<span id="primeiro_span">Cadastre-se já</span><br>
+				<p>Informe algumas informações sobre você antes.</p>
+				
+			
+			<input name="nome" type="text" class="input-1" placeholder="Nome completo"><br />
+			
+			<input name="email" type="email" class="input-1" placeholder="E-mail" onblur="checarEmail();"><br />
+			
+			<input name="tel" type="tel" id="valor" onkeyup="formatarMoeda();" placeholder="Telefone" class="input-1" maxlength="15"><br />
+			
+			<input name="assunto" type="text" class="input-1" placeholder="Assunto"><br />
+			
+			
+			<div class="div-area">
+                <textarea name="area1" cols="49" rows="8" class="area" id="area1" placeholder="Dúvida" id="area"></textarea>
+			</div>
+				<br><br>
+			<span id="file-texto">Envie sua conta:</span>
+			<div class="input-file" style="width: 22%; ">
+			<input type="file" name="input1" id="input-file" >
+			</div>
+			<br>
+			<br>
+				<div class="text-center" style="width: 100%; ">
+					<input type="submit" id="button-id" value="ENVIAR" onclick="return validar()">
+				</div>
+		
+	</div>
+    </div>	
+</div>
+</form>
+
+
+<div class="footer">
+
+	<div class="container div-footer">
+		<!--MUDAR CLASS DAS TAGS-->
+		<div class="row">
+			<div class="div-img col-lg 12 col-xs 12 col-md 12 col-sm 12">
+					<img src="img/logo_footer.png" class="img_f">
+			</div>
+
+
+			<div class="div-descricao col-lg 12 col-xs 12 col-md 12 col-sm 12">
+				<h3 class="titulo-dois">Gerador Solar</h3>
+
+
+				<span class="text-descricao-footer">
+					Solicite orçamento sem compromisso do seu gerador solar e reduza a sua conta de energia. Melhor retorno financeiro em comparação a qualquer outro tipo de investimento.
+				</span>
+			</div>
+			<div class="div-descricao col-lg 12 col-xs 12 col-md 12 col-sm 12">
+				<h3 class="titulo-dois">Coberturas Solares</h3>
+
+
+				<span class="text-descricao-footer">
+					Otimize seu espaço, transforme sua aérea de estacionamento em um gerador de energia, podendo ainda criar um ponto de carregamento para veículos elétricos com segurança e recarga rápida.
+				</span>
+			</div>
+		</div>
+	</div>
+  
+	<script src="js.js"></script>
+	
+</body>
+
+</html>
