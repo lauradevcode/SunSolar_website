@@ -1,6 +1,6 @@
 *{
 	margin: 0;
-    padding: 0;
+  padding: 0;
 }
 
 .imgBanner{
@@ -14,44 +14,41 @@
 	width: 100%;
 	height: 100%;
 }
-
-.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
-
-    color: #FFFF00;
-}
-.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a {
-	color:white;
+.titulos_nav {
+	font-size: 1.2rem;
 }
 
-nav.navbar div.collapse ul.navbar-nav li{
-	margin-left:140px;
-	width: 0px;
-	padding-top: 10px;
-	color: white;
-}
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text .nav-item .nav-link{
-	padding: 0;
-	font-weight: 500;
-	font-size: 13px;
-}
-.navbar .navbar-custom .navbar-nav > .nav-item > .nav-link, .navbar-custom .navbar-nav > .nav-item > .nav-link{
-	color: white;
-	padding-top: 0rem ;
-	font-family: sans-serif;
-	font-weight:500;
-	font-size: 13px;
-}
-.navbar .navbar-custom .navbar-nav > .nav-item > .nav-link:focus, .navbar-custom .navbar-nav > .nav-item > .nav-link:hover{
-	color: rgb(255, 230, 0);
+.nav-item a {
+	color: white !important;
 }
 
-.navbar .navbar-toggler {
-  border-color: rgb(255, 255, 255);
+.nav-item a.nav-link:hover{
+	color: yellow !important;
 }
 
-.navbar .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+.menu {
+    background-color: rgb(207, 187, 5)!important;
+}
+.caixa_pesquisa {
+	margin-top: 3px;
+	margin-left:53%;
+}
+.pesquisar_ {
+	width: 67%;
+	height: 90%;
+	padding: .380rem .80rem;
+	font-size: 1rem;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .20rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.botao_pesquisar{
+	width: 30%;
+	padding: .375rem .75rem !important;
+	height: 35px!important;
 }
 button#button_{
 	position: fixed;
@@ -100,16 +97,7 @@ input#button-id{
 	font-weight: 600;
 }
 
-div.banner-img-um{
-	background-color: #e6b30ece;
-	width:95%;
-	height: auto;
-	margin-top: 20px;
-	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
-    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
-	border-radius: 50px;
-}
+
 div.banner-img{
 	background-color: #fab20ace;
 	width:95%;
@@ -121,12 +109,6 @@ div.banner-img{
 	border-radius: 50px;
 
 
-}
-div.div-footer{
-	width:100%;
-	height: 100%;
-	margin-top: 20px;
-	font-family:Arial, Helvetica, sans-serif;
 }
 img.img-comparativa{
 	width: 80%;
@@ -184,12 +166,7 @@ div.div-img{
 	margin: 20px;
 	text-align: justify;
 }
-div.footer{
-	background-color: rgb(0, 0, 0);
-	width:100%;
-	height: 100%;
 
-}
 .img_f{
 	margin-top: 15%;
 }
@@ -208,6 +185,12 @@ div.texto_{
 	width:100%;
 	margin-left: 8%;
 	text-shadow: 1px 0px 0px  rgba(50, 50, 50, 0.77) ;
+}
+div.footer{
+	background-color: rgb(0, 0, 0);
+	width:100%;
+	height: 100%;
+
 }
 span.text-descricao-footer{
 	padding-left: 0px;

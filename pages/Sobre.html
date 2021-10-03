@@ -4,73 +4,57 @@
 <head>
 	<meta charset="utf-8" />
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-	<title></title>
-	<link href="css/style.css" rel="stylesheet" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	<link rel="shortcut icon" href="img/favicon.ico" />
+	<title>Sobre</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<script src=""></script>
+	<link href="../css/style.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
 </head>
 
 <body>
-	<header class="topu">
-		<!-- Tudo que ficar no head -->
 
-	</header>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-	<!-- Inicio do Banner -->
-	<div class="container-fluid" style="background-color: black;">
-		<div class="row">
-			<div class="logo col-lg 12 col-xs 12 col-md 12 col-sm 12">
-				<img src="img/banner.png" alt="" class="imgA">
-			</div>
-		</div>
-	</div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-	<div class="menu">
-		<!-- Inicio menu  -->
-
-		<nav class="navbar-custom navbar navbar-expand-md py-1 "
-			style="background-color:#333; border-top: 2px solid black; ">
-			<a class="navbar-custom navbar-brand" href="#"></a>
-			<button class="navbar-toggler p-1" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class=".navbar-custom collapse navbar-collapse navbar-brand ml-auto" id="collapsibleNavbar">
-				<ul class="navbar-nav ">
-					<li class="nav-item" id="primeiro">
-						<a class="nav-link  " href="index.html">INÍCIO</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link " href="Produtos.html">PRODUTOS</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Orcamento.html">ORÇAMENTO</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Contato.html">CONTATO</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="Sobre.html">SOBRE</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-
-	
-
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="titulos_nav navbar-nav mr-auto" style="margin-left: 1%;">
+      <li class="nav-item">
+          <a class="nav-link" href="../index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/Produtos.html">Produtos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/Orcamento.html">Orçamento</a>
+      </li>
+			<li class="nav-item">
+				<a class="nav-link" href="pages/Contato.html">Contato</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="pages/Sobre.html">Sobre</a>
+			</li>
+    </ul>
+    <form class="caixa_pesquisa">
+			<input class="pesquisar_" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+			<button type="button" class="botao_pesquisar btn btn-warning" style="margin-bottom:5px;">Pesquisar</button>
+    </form>
+  </div>
+</nav>
 	<!-- Botão -->
 	<div class="container-fluid">
-		
+
 			<div class="div-buttom col-lg 12 col-xs 12 col-md 12 col-sm 12" id="button_">
 				<button type="submit" class="btn-sm btn-xs" id="button-id">
 					<a href="Orcamento.html">Orçamento aqui</a></button>
 			</div>
     </div>
-    
+
     	<!-- Inicio do flexbox -->
 
 	<div class="cprod">
@@ -80,14 +64,14 @@
 			<div class="item_1 col-lg 12 col-md 12 col-sm 12 col-xs 12">
 				<img src="img/contato1.jpg" class="ft1 ">
 			</div>
-			
+
 			<div class="item_2 col-lg 12 col-md 12 col-sm 12 col-xs 12">
 				<h4 class="titulos_">ENERGIA SOLAR PARA TODOS!</h4>
-				A Sun Solar entrou no mercado com concepção um pouco diferente da empresas que atuam no mercado fotovoltaico. Não queremos instalar kits para geração de energia solar e reduzir sua tarifa energética somente, nossa meta é encontrar a melhor solução para seu projeto a ponto de tornar sua implantação mais eficiente possível, entendemos que você está fazendo um investimento de longo prazo .  E nossa missão é promover soluções que façam os equipamentos proporcionarem o máximo de eficácia energética e assim chegar ao melhor custo benefício (menor área produzindo mais energia). 
+				A Sun Solar entrou no mercado com concepção um pouco diferente da empresas que atuam no mercado fotovoltaico. Não queremos instalar kits para geração de energia solar e reduzir sua tarifa energética somente, nossa meta é encontrar a melhor solução para seu projeto a ponto de tornar sua implantação mais eficiente possível, entendemos que você está fazendo um investimento de longo prazo .  E nossa missão é promover soluções que façam os equipamentos proporcionarem o máximo de eficácia energética e assim chegar ao melhor custo benefício (menor área produzindo mais energia).
 
                 Nos dedicamos também a melhorar sistemas já implantados, onde a produção está abaixo do esperado, avaliamos a sua planta instalada e indicamos soluções para melhorar sua produção, chegamos conseguir até 20% de ganho ou mais sem aumentar um único painel.
 
-                Outro grande diferencial é o upgrade que fazemos em sua planta instalada aproveitamos todo seu equipamento e o promovemos a um sistema híbrido que mantem seu imóvel ou comércio funcionando pelo tempo que for necessário na falta de energia. 
+                Outro grande diferencial é o upgrade que fazemos em sua planta instalada aproveitamos todo seu equipamento e o promovemos a um sistema híbrido que mantem seu imóvel ou comércio funcionando pelo tempo que for necessário na falta de energia.
 
                 Temos uma grande variedade de produtos para atender demandas residenciais, empresariais e condominiais e fazemos adequações para carregar de forma rápida veículos elétricos (com ou sem cobrança). Coberturas fotovoltaicas diversas e sistemas de energias alternativas para diversos tipos de equipamentos e aplicações.
 			</div>
@@ -96,8 +80,8 @@
 	</div>
 
 	</div>
-    
-    
+
+
     <!-- Footer/Rodapé-->
 
 	<div class="footer">
