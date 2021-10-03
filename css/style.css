@@ -3,37 +3,12 @@
     padding: 0;
 }
 
-#prev{
-	color: white;
-	margin-left: 320px;
-	margin-top: 12px;
-	font-size: 17px;
-}
-
-#banner{
-	margin-top: 0px;
-	padding-left: 0px;
-	margin-right: 0px;
-	position: relative;
-	width: 100%;
-	z-index: 0;
-	
-}
 .imgBanner{
 	width: 100%;
 	height: 100%;
 	margin-left: 0%;
 	margin-right: 0%;
 }
-.topu{
-	background-color:black;
-	width: 100%;
-	height: 55px;
-	position: relative;
-	z-index: 50;
-	color: white;
-}
-
 .container{
 	background-color: black;
 	width: 100%;
@@ -41,33 +16,25 @@
 }
 
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
-  
+
     color: #FFFF00;
 }
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a {
 	color:white;
 }
-.imgA{
-	width: 100%;
-	height: 100%;
-}
-.logo{
-	border-bottom: 5px dotted black;
-	width: 100%;
-	height: 100%;
-}
+
 nav.navbar div.collapse ul.navbar-nav li{
 	margin-left:140px;
 	width: 0px;
 	padding-top: 10px;
 	color: white;
 }
-.navbar-custom .navbar-brand, 
-.navbar-custom .navbar-text .nav-item .nav-link{ 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text .nav-item .nav-link{
 	padding: 0;
 	font-weight: 500;
 	font-size: 13px;
-} 
+}
 .navbar .navbar-custom .navbar-nav > .nav-item > .nav-link, .navbar-custom .navbar-nav > .nav-item > .nav-link{
 	color: white;
 	padding-top: 0rem ;
@@ -107,7 +74,7 @@ button#button-id {
 	height: 40px;
 	text-transform: uppercase;
 	font-family: sans-serif; /*Aplicar event JQuery*/
-	margin-top: 30px; 
+	margin-top: 30px;
 	margin-bottom: 25px;
 	border: 1px solid rgb(255, 217, 0);
 	font-weight: 600;
@@ -127,7 +94,7 @@ input#button-id{
 
 	text-transform: uppercase;
 	font-family: sans-serif; /*Aplicar event JQuery*/
-	margin-top: 30px; 
+	margin-top: 30px;
 	margin-bottom: 25px;
 	border: 1px solid rgb(255, 217, 0);
 	font-weight: 600;
@@ -152,7 +119,7 @@ div.banner-img{
     -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
     box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 	border-radius: 50px;
-	
+
 
 }
 div.div-footer{
@@ -164,11 +131,11 @@ div.div-footer{
 img.img-comparativa{
 	width: 80%;
 	margin: 30px;
-	margin-left: 40px;	
+	margin-left: 40px;
 	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
     -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
     box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
-	
+
 }
 h3.titulo-um{
 	color: black;
@@ -179,7 +146,7 @@ h3.titulo-um{
 	text-transform: uppercase;
 	font-family: sans-serif;
 	padding-top: 20px;
-	
+
 }
 h3.titulo-um-2{
 	color: black;
@@ -190,7 +157,7 @@ h3.titulo-um-2{
 	text-transform: uppercase;
 	font-family: sans-serif;
 	padding-top: 20px;
-	
+
 }
 hr.hr-titulo{
 	width: 60%;
@@ -244,7 +211,7 @@ div.texto_{
 }
 span.text-descricao-footer{
 	padding-left: 0px;
-	margin-right: 0px;	
+	margin-right: 0px;
 	font-size: 13.4px;
 	font-weight: 500;
 	font-family: serif;
@@ -303,7 +270,7 @@ h5.direitos{
 #item_1-1{
 	width: 80%;
 	height: auto;
-	
+
 	margin-left: 9%;
 }
 .item_2{
@@ -332,7 +299,7 @@ h5.direitos{
 }
 .ft3{
 	width: 80%;
-	height: auto;	
+	height: auto;
 	margin-left: 12%;
 }
 .ft4{
@@ -375,7 +342,7 @@ h5.direitos{
 div.form-contato{
 	width: 100%;
 	height: auto;
-	
+
 	margin-top: 2%;
 }
 form.formulario{
