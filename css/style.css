@@ -355,13 +355,21 @@ div.input-file{
 	float: right;
 }
 /* ===== FOOTER ===== */
+@media only screen and (max-width: 600px) {
+	.colunasf {
+	    margin-top: 2%;
+			margin-left: 21%;
+	    width: 60%;
+	}
 
+}
 .footer {
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     font-family: 'Poppins', sans-serif;
     color: white;
 		height: 30%;
 		width: 100%;
+
 }
 
 .footer a {
@@ -386,6 +394,5 @@ div.input-file{
 
 .colunasf {
     margin-top: 2%;
-		margin-left: 6%;
     width: 60%;
 }
