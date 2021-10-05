@@ -43,15 +43,13 @@
 	text-align: center;
 	margin-top: 1%;
 }
-.flex-container{
+div.flex-container{
 	display: flex;
-	margin-left: 5%;
-}
-.flex-container > div {
-  margin: 10px;
-  padding: 5px;
+	flex-direction: column;
+
 }
 .cards {
+	margin: 5%;
 	-webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.77);
 	box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.77);
 }
@@ -230,14 +228,6 @@ h3.titulo-dois{
 	width: 100%;
 	border-radius: 5%;
 }
-.item_1{
-	width: 60%;
-	height: auto;
-	margin-bottom: 1%;
-	margin-left: 1%;
-}
-
-
 .ft1{
 	width: 70%;
 	height: 100%;
