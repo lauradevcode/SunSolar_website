@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.titulos_nav {
+.nav-item a.nav-link {
 	font-size: 1.2rem;
 }
 
@@ -39,6 +39,26 @@
 	padding: .375rem .75rem !important;
 	height: 35px!important;
 }
+.titulo_h{
+	text-align: center;
+	margin-top: 1%;
+}
+.flex-container{
+	display: flex;
+	background-color: DodgerBlue;
+}
+.flex-container > div {
+  background-color: red;
+  margin: 10px;
+  padding: 5px;
+}
+.card-title {
+	text-align: center;
+}
+.card-text {
+	text-align: justify;
+}
+
 button#button_{
 	position: fixed;
 	right: 16px;
@@ -136,20 +156,8 @@ hr.hr-titulo{
 	margin-left: 20%;
 	background-color: rgb(255, 255, 255);
 }
-span.text-descricao{
-	margin:30px;
-	font-size: 18px;
-	font-weight: bolder;
-	color:rgb(197, 3, 3);
-	font-family:Arial, Helvetica, sans-serif;
-	text-align: justify;
-	text-shadow: 0px 0px 1px white;
-}
-div
-div.div-descricao{
-	margin: 20px;
-	text-align: justify;
-}
+
+
 div.div-img{
 	margin-top: 20px;
 	margin: 20px;
@@ -175,20 +183,6 @@ div.texto_{
 	margin-left: 8%;
 	text-shadow: 1px 0px 0px  rgba(50, 50, 50, 0.77) ;
 }
-div.footer{
-	background-color: rgb(0, 0, 0);
-	width:100%;
-	height: 100%;
-
-}
-span.text-descricao-footer{
-	padding-left: 0px;
-	margin-right: 0px;
-	font-size: 13.4px;
-	font-weight: 500;
-	font-family: serif;
-	color: gray;
-}
 
 h3#texto-margem{
 	margin-top:40px;
@@ -203,22 +197,7 @@ h3.titulo-dois{
 	font-family: sans-serif;
 	padding-top: 0px;
 }
-div.direitos{
-	width: 100%;
-	height: 40px;
-	background-color: rgb(37, 37, 37);
-	font-size: 12px;
-	color:white;
-	padding: 10px;
-	text-align: left;
-}
-h5.direitos{
-	margin-left: 20px;
-	font-size: 12px;
-	color:gray;
-	font-weight: 600;
-	text-align: center;
-}
+
 .cprod{
 	width: 100%;
 	margin-top: 30px;
@@ -372,4 +351,39 @@ div.input-file{
 	font-weight: bolder;
 	position: relative;
 	float: right;
+}
+/* ===== FOOTER ===== */
+
+.footer {
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+		height: 30%;
+		width: 100%;
+}
+
+.footer a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+
+}
+
+.sub-footer {
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-top: purple;
+    border: 1px solid #ff5da5;
+		width: 100%;
+}
+
+.colunasf {
+    margin-top: 2%;
+		margin-left: 6%;
+    width: 60%;
 }
