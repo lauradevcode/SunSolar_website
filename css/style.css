@@ -58,7 +58,9 @@
 .card-text {
 	text-align: justify;
 }
-
+.card-img-top{
+	width: 100%;
+}
 button#button_{
 	position: fixed;
 	right: 16px;
