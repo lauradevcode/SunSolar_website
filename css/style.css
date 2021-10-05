@@ -45,10 +45,9 @@
 }
 .flex-container{
 	display: flex;
-	background-color: DodgerBlue;
+	margin-left: 5%;
 }
 .flex-container > div {
-  background-color: red;
   margin: 10px;
   padding: 5px;
 }
@@ -60,6 +59,28 @@
 }
 .card-img-top{
 	width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+	.flex-container{
+		display: flex;
+	}
+	.flex-container > div {
+	  margin: 10px;
+	  padding: 5px;
+	}
+	.card-title {
+		text-align: center;
+	}
+	.card-text {
+		text-align: justify;
+	}
+	.card-img-top{
+		width: 100%;
+	}
+
+
+
 }
 button#button_{
 	position: fixed;
@@ -360,6 +381,7 @@ div.input-file{
 	    margin-top: 2%;
 			margin-left: 21%;
 	    width: 60%;
+			background-color: red;
 	}
 
 }
