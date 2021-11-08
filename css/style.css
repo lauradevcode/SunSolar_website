@@ -120,7 +120,6 @@ input#button-id{
 	color: black;
 	width: 200px;
 	height: 40px;
-
 	text-transform: uppercase;
 	font-family: sans-serif; /*Aplicar event JQuery*/
 	margin-top: 30px;
@@ -128,7 +127,6 @@ input#button-id{
 	border: 1px solid rgb(255, 217, 0);
 	font-weight: 600;
 }
-
 
 div.banner-img{
 	background-color: #fab20ace;
@@ -228,41 +226,7 @@ h3.titulo-dois{
 	width: 100%;
 	border-radius: 5%;
 }
-.ft1{
-	width: 70%;
-	height: 100%;
-	margin-left:15%;
-}
-.ft2{
-	width: 50%;
-	height: auto;
-	margin-left:20%;
-}
-.ft3{
-	width: 80%;
-	height: auto;
-	margin-left: 12%;
-}
-.ft4{
-	width: 45%;
-	height: 100%;
-	margin-left: 5%;
-}
-.ft5{
-	width: 45%;
-	height: 100%;
-	margin-left: 2%;
-}
-.ft6{
-	width: 45%;
-	height: 100%;
-	margin-left: 29%;
-}
-.ft7{
-	width: 45%;
-	height: 100%;
-	margin-left: 29%;
-}
+
 .wpp{
 	margin-left: 40%;
 	background-color: darkgreen;
@@ -277,6 +241,11 @@ h3.titulo-dois{
 .wpp a:hover{
 	text-decoration: none;
 	color: white;
+}
+/* Começa aqui codigo produtos */
+.item_1{
+	width: 100%;
+	height: 100%;
 }
 
 /* Começa aqui codigo formulario */
@@ -348,7 +317,7 @@ div.input-file{
 	position: relative;
 	float: right;
 }
-/* ===== FOOTER ===== */
+/* ===== FOOTER media querie ===== */
 @media only screen and (max-width: 600px) {
 	.colunasf {
 	    margin-top: 2%;
@@ -358,6 +327,7 @@ div.input-file{
 	}
 
 }
+/* ===== FOOTER desktop ===== */
 .footer {
     background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     font-family: 'Poppins', sans-serif;
