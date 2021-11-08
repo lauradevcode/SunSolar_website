@@ -329,7 +329,7 @@ div.input-file{
 }
 /* ===== FOOTER desktop ===== */
 .footer {
-    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    background-color: #212529;
     font-family: 'Poppins', sans-serif;
     color: white;
 		height: 30%;
@@ -347,13 +347,13 @@ div.input-file{
 }
 
 .sub-footer {
-    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+  	background-color: #212529;
     font-family: 'Poppins', sans-serif;
     float: left;
     width: 100%;
     text-align: center;
-    border-top: purple;
-    border: 1px solid #ff5da5;
+    border-top: white;
+    border: 1px solid white;
 		width: 100%;
 }
 
