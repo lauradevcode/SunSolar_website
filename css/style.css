@@ -290,8 +290,7 @@ textarea.area{
 	font-weight: 500;
 }
 div.div-area{
-	border: 2px solid gray;
-	border-radius: 2px;
+	border-radius: 4px;
 	width: 40%;
 	background-color: white;
 	margin-left: 30%;
